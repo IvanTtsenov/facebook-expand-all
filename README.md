@@ -1,6 +1,6 @@
 # facebook-expand-all
 Automatically change the comments section from most relevant to all comments
-Step 1. Install tampermonkey or equivalent in your browser
+Step 1. Install tampermonkey or equivalent add-on in your browser
 Step 2. Click on create new script a new window will open
 Step 3. Copy and replace the code inside it
 Step 4. Done
