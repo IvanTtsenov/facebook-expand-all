@@ -50,7 +50,7 @@
                                                 let commentsPopUp = document.querySelector('.x1n2onr6.x1ja2u2z.x1afcbsf[role="dialog"]');
                                                 let moreComments = commentsPopUp.querySelector('.xe0p6wg > div:nth-child(1)')
                                                 moreComments.click();
-                                                let optionsMenu = document.querySelector('[role="menu"]')
+                                               let optionsMenu = document.querySelector('[role="menu"]')
                                                 if (optionsMenu !== null) {
                                                         let options = optionsMenu.querySelectorAll('[role="menuitem"]');
                                                         options.forEach(option => {
@@ -72,7 +72,7 @@
                         };
                 }
                 //Normal page comments
-                let viewComments = document.querySelectorAll('.xzueoph [role="button"]');
+                let viewComments = [...document.querySelectorAll("span")].filter(el => el.textContent.includes("View more comments"));
                 for (let i = 0; i < viewComments.length - 1; i++) {
                         let comment = viewComments[i];
                         comment.addEventListener("click", function () {
